@@ -349,14 +349,14 @@ function renderSummaryStep(container) {
     <div class="phase-head">
       <div>
         <h2>Resumen final</h2>
-        <p class="intro-text">Texto listo para copiar o descargar.</p>
+        <p class="intro-text">Usa los botones y revisa el texto antes de enviarlo.</p>
       </div>
     </div>
-    <textarea id="summaryText" class="summary-box" readonly>${escapeHtml(summary)}</textarea>
     <div class="summary-actions">
       <button id="copySummaryButton" class="button button-primary" type="button">Copiar resumen</button>
       <button id="downloadSummaryButton" class="button button-secondary" type="button">Descargar resumen .txt</button>
     </div>
+    <textarea id="summaryText" class="summary-box" readonly>${escapeHtml(summary)}</textarea>
   `;
 }
 

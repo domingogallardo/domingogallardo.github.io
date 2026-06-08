@@ -330,6 +330,7 @@ select {
 .summary-box {
   width: 100%;
   min-height: 420px;
+  margin-top: 12px;
   padding: 14px;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -343,7 +344,7 @@ select {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 12px;
+  margin-top: 4px;
 }
 
 .nav-actions {
@@ -423,6 +424,14 @@ select {
 
   .nav-actions {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .summary-actions .button {
+    flex: 1 1 100%;
+  }
+
+  .summary-box {
+    min-height: 300px;
   }
 
   #clearStorageButton {
