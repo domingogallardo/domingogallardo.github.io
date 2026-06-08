@@ -118,32 +118,32 @@ const thirdPlaceAssignments = thirdPlaceAssignmentRows.reduce((map, row) => {
 }, {});
 
 const round32Schema = [
-  { id: 73, a: "2A", b: "2B" },
   { id: 74, a: "1E", b: "3*" },
-  { id: 75, a: "1F", b: "2C" },
-  { id: 76, a: "1C", b: "2F" },
   { id: 77, a: "1I", b: "3*" },
+  { id: 73, a: "2A", b: "2B" },
+  { id: 75, a: "1F", b: "2C" },
+  { id: 83, a: "2K", b: "2L" },
+  { id: 84, a: "1H", b: "2J" },
+  { id: 81, a: "1D", b: "3*" },
+  { id: 82, a: "1G", b: "3*" },
+  { id: 76, a: "1C", b: "2F" },
   { id: 78, a: "2E", b: "2I" },
   { id: 79, a: "1A", b: "3*" },
   { id: 80, a: "1L", b: "3*" },
-  { id: 81, a: "1D", b: "3*" },
-  { id: 82, a: "1G", b: "3*" },
-  { id: 83, a: "2K", b: "2L" },
-  { id: 84, a: "1H", b: "2J" },
-  { id: 85, a: "1B", b: "3*" },
   { id: 86, a: "1J", b: "2H" },
-  { id: 87, a: "1K", b: "3*" },
-  { id: 88, a: "2D", b: "2G" }
+  { id: 88, a: "2D", b: "2G" },
+  { id: 85, a: "1B", b: "3*" },
+  { id: 87, a: "1K", b: "3*" }
 ];
 
 const nextRoundSchemas = {
   round16: [
     { id: 89, from: [74, 77] },
     { id: 90, from: [73, 75] },
-    { id: 91, from: [76, 78] },
-    { id: 92, from: [79, 80] },
     { id: 93, from: [83, 84] },
     { id: 94, from: [81, 82] },
+    { id: 91, from: [76, 78] },
+    { id: 92, from: [79, 80] },
     { id: 95, from: [86, 88] },
     { id: 96, from: [85, 87] }
   ],
